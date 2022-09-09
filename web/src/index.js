@@ -19,8 +19,10 @@
 // Configure our app
 angular.module('editor', ['editor.login', 'editor.rename', 'editor.drive', 'ngRoute', 'ngMaterial', 'ui.codemirror'])
   .constant('apiKey', null)
-  .constant('clientId', '709207149709-fadikftqudacphtr4pq5mu80s6tqklrb.apps.googleusercontent.com')
-  .constant('applicationId', '709207149709')
+  .constant('clientId', '906748414724-5lab45bnvrv4l1ft1lqb7j5sjn5l5qmo.apps.googleusercontent.com')
+  .constant('applicationId', '906748414724')
+//   .constant('clientId', '709207149709-fadikftqudacphtr4pq5mu80s6tqklrb.apps.googleusercontent.com')
+//   .constant('applicationId', '709207149709')
   .constant('scope', ['email', 'profile', 'https://www.googleapis.com/auth/drive', 'https://www.googleapis.com/auth/drive.install'])
   .constant('loadApis', {
     'drive' : 'v2'
